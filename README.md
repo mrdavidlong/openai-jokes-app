@@ -1,6 +1,6 @@
-# OpenAI API Quickstart - Python example app
+# Jokes generation with OpenAI API
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+Using OpenAI API to generate jokes from a description. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
 ## Setup
 
@@ -11,7 +11,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd openai-jokes-app
    ```
 
 4. Create a new virtual environment
@@ -25,7 +25,6 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
    ```bash
    $ pip install -r requirements.txt
-   $ pip install --upgrade openai
    ```
 
 6. Make a copy of the example environment variables file
@@ -39,7 +38,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 8. Run the app
 
    ```bash
-   $ flask run
+   $ flask run -h localhost -p 5001
    ```
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+You should now be able to access the app at [http://localhost:5001](http://localhost:5001)!
