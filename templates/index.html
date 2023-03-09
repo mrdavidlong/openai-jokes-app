@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>Funny jokes!</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='dog.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+  <h3>Funny jokes!</h3>
+  <form action="/" method="post">
+    Tell me a joke about ... <input type="text" name="topic" placeholder="Enter a topic" required />
+    <input type="submit" value="Go" />
+  </form>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
