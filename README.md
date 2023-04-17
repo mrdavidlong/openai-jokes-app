@@ -2,6 +2,10 @@
 
 Using OpenAI API to generate jokes from a description. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
+<img width="863" alt="Screenshot 2023-04-16 at 11 38 06 PM" src="https://user-images.githubusercontent.com/7539968/232404265-a5a1eb5e-309d-4b42-8714-3c17465030ec.png">
+
+Topic: "cats with hats"
+
 ## Setup
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
